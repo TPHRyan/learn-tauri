@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tauri-apps/cli", "npm:1.4.0"],\
             ["@types/node", "npm:17.0.45"],\
             ["@vitejs/plugin-vue", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.3.4"],\
+            ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -1353,6 +1354,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tauri-apps/cli", "npm:1.4.0"],\
             ["@types/node", "npm:17.0.45"],\
             ["@vitejs/plugin-vue", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.3.4"],\
+            ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.4.9"],\
             ["vue", "npm:3.3.4"],\
@@ -1686,6 +1688,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prettier", [\
+        ["npm:3.0.3", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.0.3-fced695dae/node_modules/prettier/",\
+          "packageDependencies": [\
+            ["prettier", "npm:3.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

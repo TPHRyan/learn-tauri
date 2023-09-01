@@ -1150,6 +1150,7 @@ __metadata:
     "@tauri-apps/cli": ^1.4.0
     "@types/node": ^17.0.45
     "@vitejs/plugin-vue": ^4.2.3
+    prettier: ^3.0.3
     typescript: ^5.0.2
     vite: ^4.4.4
     vue: ^3.3.4
@@ -1461,6 +1462,15 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "prettier@npm:3.0.3"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: e10b9af02b281f6c617362ebd2571b1d7fc9fb8a3bd17e371754428cda992e5e8d8b7a046e8f7d3e2da1dcd21aa001e2e3c797402ebb6111b5cd19609dd228e0
   languageName: node
   linkType: hard
 
