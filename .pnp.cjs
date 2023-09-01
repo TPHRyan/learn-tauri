@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@tauri-apps/api", "npm:1.4.0"],\
             ["@tauri-apps/cli", "npm:1.4.0"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@vitejs/plugin-vue", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.3.4"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.4.9"],\
@@ -452,6 +453,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-ad87447820.zip/node_modules/@tootallnate/once/",\
           "packageDependencies": [\
             ["@tootallnate/once", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/node", [\
+        ["npm:17.0.45", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.45-fdb38d1624-aa04366b91.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:17.0.45"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1341,6 +1351,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["learn-tauri", "workspace:."],\
             ["@tauri-apps/api", "npm:1.4.0"],\
             ["@tauri-apps/cli", "npm:1.4.0"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@vitejs/plugin-vue", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.3.4"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.4.9"],\
@@ -1980,7 +1991,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vite", "virtual:80534a02316eb05ce48bf52fd972e0dc25e3835142abcadf7a2a1c78bf9d05280d0421053c7e9f1f1841beff3c5db66dda53b6410d3caf7f68458dd7a7df7b1c#npm:4.4.9"],\
             ["@types/less", null],\
             ["@types/lightningcss", null],\
-            ["@types/node", null],\
+            ["@types/node", "npm:17.0.45"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\
